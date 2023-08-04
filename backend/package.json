@@ -4,8 +4,7 @@
   "description": "iNotebook - Your notebook on cloud",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "nodemon index"
   },
   "engines": {
     "node": "18.12.0"
