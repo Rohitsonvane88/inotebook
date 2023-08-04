@@ -7,7 +7,7 @@ const Signup = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         const {name, email, password} = credentials
-        const response = await fetch('http://127.0.0.1:5000/api/auth/createUser', {
+        const response = await fetch('https://inotebook-2mbk.onrender.com/api/auth/createUser', {
         method: "POST",
             headers: {
               "Content-Type": "application/json" 
